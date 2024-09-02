@@ -7,3 +7,5 @@ for ($x=0;$x<$courses_length;$x++) {
     echo"<br>";
 }
 ?>
+
+
