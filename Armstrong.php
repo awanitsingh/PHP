@@ -14,4 +14,6 @@ if($num == $total) {
 else {
     echo "No it is not an Armstrong number";
 }
+
 ?>
+
