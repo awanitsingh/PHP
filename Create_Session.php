@@ -9,3 +9,4 @@ $_SESSION["email"] = "johndoe@example.com";
 echo "Username: " . $_SESSION["username"] . "<br>";
 echo "Email: " . $_SESSION["email"] . "<br>";
 ?>
+
