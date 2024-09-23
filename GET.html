@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form method="GET" action="form.php">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <label for="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobile" required><br><br>
+
+        <label for="options">Select Options:</label><br>
+        <input type="checkbox" name="options[]" value="Option 1"> Option 1<br>
+        <input type="checkbox" name="options[]" value="Option 2"> Option 2<br>
+        <input type="checkbox" name="options[]" value="Option 3"> Option 3<br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
