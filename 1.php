@@ -7,4 +7,7 @@ if(ctype_alpha($char)) {
 else {
     echo"$char is not an alphabet"; 
 }
-?>
+?> 
+
+
+
