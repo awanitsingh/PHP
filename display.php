@@ -14,4 +14,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($name) && !empty($email) && !
         echo "<p>Gender: Not specified</p>";
     }
 }
-?>
+?> 
